@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: grey;
+  height: 100%;
 }
 
 form {
@@ -7,6 +9,7 @@ form {
   flex-direction: column; 
   max-width: 400px; 
   margin: auto;
+  height: 100%;
 }
 
 .imagePreview {
@@ -32,3 +35,12 @@ img {
   max-width: 400px;
   margin: auto;
 }
+ 
+.alert alert-primary{
+ font-size: 200;
+}
+
+.form-control me-2{
+  margin: 4px;
+}
+
